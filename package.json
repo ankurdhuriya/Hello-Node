@@ -1,0 +1,21 @@
+{
+  "name": "hello_node",
+  "version": "1.0.0",
+  "description": "Hello World from Node API",
+  "main": "app.js",
+  "scripts": {
+    "start": "rm -rf node_modules && npm install && node app.js",
+    "dev": "rm -rf node_modules && npm install && nodemon app.js",
+    "clean": "rm -rf node_modules && rm -rf package-lock.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Franco",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
